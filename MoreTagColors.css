@@ -1,0 +1,62 @@
+/**
+ * @name More Tag Colors (Vencord)
+ * @author Lopolin
+ * @authorId 1139469206686027796
+ * @authorLink https://github.com/lopolin-lp
+ * @description Instead of plain ol' boring AccentColor or blue, give them tags some color!
+ * @license GPL-3.0??
+ * @version 0.1
+ * @source https://github.com/lopolin-lp/more-tag-colors-vencord
+ * @website https://lopolin-lp.github.io/more-tag-colors-vencord/
+*/
+/* things like 'at'invite and 'at'donate exist as well... sadly i don't hove those */
+
+/* customize the colors as you may wish to have them. */
+:root {											 /* defaultColor		 ;	 desciption		 */
+    --tags-col-bot:		rgb(88, 101, 242);		/* rgb(88, 101, 242)	;	Discord Purple	*/
+    --tags-col-owner:	rgb(255, 127, 0);		/* rgb(255, 127, 0)		;	Orange			*/
+    --tags-col-admin:	rgb(255, 0, 0);		/* rgb(255, 0, 0)		;	Red				*/
+    --tags-col-staff:	rgb(31, 191, 31);		/* rgb(31, 191, 31)		;	Green-ish 		*/
+    --tags-col-mod:		rgb(0, 161, 255);		/* rgb(0, 161, 255)		;	Light Blue		*/
+    --tags-col-vc-mod:	rgb(0, 0, 255);		/* rgb(0, 0, 255)		;	Dark Blue		*/
+    --tags-col-webhook:	rgb(127, 127, 127);	/* rgb(127, 127, 127)	;	Gray			*/
+    --tags-extra-col:	rgb(0, 0, 0);			/* rgb(0, 0, 0)			;	used when bots have an extra tag which is not covered */
+}
+
+
+
+/* THE ACTUAL CSS, DO NOT CHANGE */
+.botTag-7aX5WZ[data-tag$="bot"] {
+    background-color: var(--tags-col-bot);
+    --tags-extra-col: var(--tags-col-bot);
+}
+.botTag-7aX5WZ[data-tag$="owner"] {
+    background-color: var(--tags-col-owner);
+    --tags-extra-col: var(--tags-col-owner);
+}
+.botTag-7aX5WZ[data-tag$="admin"] {
+    background-color: var(--tags-col-admin);
+    --tags-extra-col: var(--tags-col-admin);
+}
+.botTag-7aX5WZ[data-tag$="staff"] {
+    background-color: var(--tags-col-staff);
+    --tags-extra-col: var(--tags-col-staff);
+}
+.botTag-7aX5WZ[data-tag$="mod"] {
+    background-color: var(--tags-col-mod);
+    --tags-extra-col: var(--tags-col-mod);
+}
+.botTag-7aX5WZ[data-tag$="vc mod"] {
+    background-color: var(--tags-col-vc-mod);
+    --tags-extra-col: var(--tags-col-vc-mod);
+}
+.botTag-7aX5WZ[data-tag$="webhook"] {
+    background-color: var(--tags-col-webhook);
+    --tags-extra-col: var(--tags-col-webhook);
+}
+
+/* special cases */
+.botTag-7aX5WZ[data-tag^="bot • "] {
+    background-color: unset;
+    background: linear-gradient(90deg, var(--tags-col-bot) 30%, var(--tags-extra-col) 70%);
+}
