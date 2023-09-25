@@ -8,5 +8,8 @@ I made it to work with Vencord, however it may work with other things as well.
 3. (optional) open the file to customize some values
 4. done
 
+## Gallery
+![hiwse ghb bgjrh ahubgubshralbh](https://github.com/Lopolin-LP/more-tag-colors-vencord/assets/82715586/6d688f5f-9c24-47cd-bf01-66eea18d8cee)
+
 ## Licence
 MIT.
