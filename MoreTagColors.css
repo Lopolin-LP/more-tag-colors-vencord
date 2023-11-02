@@ -5,9 +5,9 @@
  * @authorLink https://github.com/lopolin-lp
  * @description Instead of plain ol' boring AccentColor or blue, give them tags some color!
  * @license MIT
- * @version 0.1
+ * @version 0.2
  * @source https://github.com/lopolin-lp/more-tag-colors-vencord
- * @website https://lopolin-lp.github.io/more-tag-colors-vencord/
+ * @website https://lopolin-lp.github.io/
 */
 /* things like 'at'invite and 'at'donate exist as well... sadly i don't hove those */
 
@@ -26,37 +26,37 @@
 
 
 /* THE ACTUAL CSS, DO NOT CHANGE */
-.botTag-7aX5WZ[data-tag$="bot"] {
+.botTag__4211a[data-tag$="bot"] {
     background-color: var(--tags-col-bot);
     --tags-extra-col: var(--tags-col-bot);
 }
-.botTag-7aX5WZ[data-tag$="owner"] {
+.botTag__4211a[data-tag$="owner"] {
     background-color: var(--tags-col-owner);
     --tags-extra-col: var(--tags-col-owner);
 }
-.botTag-7aX5WZ[data-tag$="admin"] {
+.botTag__4211a[data-tag$="admin"] {
     background-color: var(--tags-col-admin);
     --tags-extra-col: var(--tags-col-admin);
 }
-.botTag-7aX5WZ[data-tag$="staff"] {
+.botTag__4211a[data-tag$="staff"] {
     background-color: var(--tags-col-staff);
     --tags-extra-col: var(--tags-col-staff);
 }
-.botTag-7aX5WZ[data-tag$="mod"] {
+.botTag__4211a[data-tag$="mod"] {
     background-color: var(--tags-col-mod);
     --tags-extra-col: var(--tags-col-mod);
 }
-.botTag-7aX5WZ[data-tag$="vc mod"] {
+.botTag__4211a[data-tag$="vc mod"] {
     background-color: var(--tags-col-vc-mod);
     --tags-extra-col: var(--tags-col-vc-mod);
 }
-.botTag-7aX5WZ[data-tag$="webhook"] {
+.botTag__4211a[data-tag$="webhook"] {
     background-color: var(--tags-col-webhook);
     --tags-extra-col: var(--tags-col-webhook);
 }
 
 /* special cases */
-.botTag-7aX5WZ[data-tag^="bot • "] {
+.botTag__4211a[data-tag^="bot • "] {
     background-color: unset;
     background: linear-gradient(90deg, var(--tags-col-bot) 30%, var(--tags-extra-col) 70%);
 }
