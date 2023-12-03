@@ -1,3 +1,5 @@
+# MoreTagColors has been moved! https://github.com/Lopolin-LP/custom-discord-themes/tree/main/more-tag-colors-vencord
+
 # MoreTagColors (for Vencord)
 Makes Bot/Admin/Staff Tags colorful.
 I made it to work with Vencord, however it may work with other things as well.
